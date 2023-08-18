@@ -1,0 +1,17 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typing-demo {
+  max-width: 50vw;
+  font-family: monospace;
+  font-size: 1em;
+  line-height: 1.5; 
+}
+.typing-demo p {
+  overflow: hidden;
+  white-space: wrap; 
+}
